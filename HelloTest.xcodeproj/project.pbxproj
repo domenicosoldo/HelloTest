@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					0CD4B21A1BFC069600E17978 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 544E5A5G3B;
 					};
 					0CD4B2331BFC069700E17978 = {
 						CreatedOnToolsVersion = 7.1;
@@ -413,9 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pwc.HelloTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.HelloTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pwc.HelloTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.HelloTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +501,7 @@
 				0CD4B24A1BFC069700E17978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CD4B24B1BFC069700E17978 /* Build configuration list for PBXNativeTarget "HelloTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +510,7 @@
 				0CD4B24D1BFC069700E17978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CD4B24E1BFC069700E17978 /* Build configuration list for PBXNativeTarget "HelloTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +519,7 @@
 				0CD4B2501BFC069700E17978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
